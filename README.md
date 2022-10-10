@@ -53,14 +53,14 @@ extended to track other things later).
 If the score integer is changed, the UI text string should update accordingly, based on this integer.
 You may use a serialized
 [`TMPro.TMP_Text`](https://docs.unity3d.com/Packages/com.unity.textmeshpro@1.0/api/TMPro.TMP_Text.html)
-component reference to modify the TextMesh Pro text when required. Prefix the score text with a
+component reference to modify the TextMesh Pro text when required. Prefix the score text with 
 a glyph (or word) of your choosing. Note that in the example gifs/images we are using
 a diamond glyph (◆), but you don't have to. If you want to attempt this,
 it will require you to specify a custom character set when generating
 the TextMesh Pro atlas (the font also needs to support the respective character):
 
 <p align="center">
-  <img src="Gifs/task_2.png">
+  <img src="Gifs/task_2.png" width="605">
 </p>
 
 #### 3. Award some points!
