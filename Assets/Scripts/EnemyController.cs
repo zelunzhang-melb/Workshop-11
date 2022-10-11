@@ -126,4 +126,9 @@ public class EnemyController : MonoBehaviour
         
         yield return new WaitForSeconds(0.5f); // Small delay after fire.
     }
+
+    private void OnDestroy()
+    {
+        GameManager.Instance.AddScore(10);
+    }
 }
